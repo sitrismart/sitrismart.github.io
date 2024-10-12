@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <title>Vo Van Nam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+</head>
+<body class="bg-gray-900 text-white font-roboto">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-1/4 bg-gray-800 p-6">
+            <div class="flex flex-col items-center">
+                <div class="w-36 h-36 rounded-full overflow-hidden mb-4">
+                    <img alt="Profile picture" class="w-full h-full object-cover" src="/images/avatar.jpeg"/>
+                </div>
+                <h1 class="text-yellow-500 text-xl font-bold">VO VAN NAM</h1>
+                <p class="text-gray-400 mb-6">Developer</p>
+                <nav class="text-center">
+                    <ul>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">Home</a></li>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">About me</a></li>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">Education</a></li>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">Working experience</a></li>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">Technical skills</a></li>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">Selected projects</a></li>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">Awards & certificates</a></li>
+                        <li class="mb-2"><a class="text-white hover:text-yellow-500" href="#">Publications</a></li>
+                    </ul>
+                </nav>
+                <div class="flex justify-center mt-6 space-x-4">
+                    <a class="text-white hover:text-yellow-500" href="#"><i class="fas fa-envelope"></i></a>
+                    <a class="text-white hover:text-yellow-500" href="#"><i class="fab fa-github"></i></a>
+                    <a class="text-white hover:text-yellow-500" href="#"><i class="fab fa-kaggle"></i></a>
+                    <a class="text-white hover:text-yellow-500" href="#"><i class="fab fa-linkedin"></i></a>
+                    <a class="text-white hover:text-yellow-500" href="#"><i class="fab fa-stack-overflow"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <div class="w-3/4 p-6">
+            <section class="mb-8">
+                <h2 class="text-yellow-500 text-2xl font-bold mb-4">ABOUT ME</h2>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <div class="">
+                        <p class="text-gray-400 mb-4">
+                            A third-year student in Information Technology, majoring in Software Engineering at VNU-HCMUS.
+                            I enjoy exploring new knowledge, especially in science, technology, and programming.
+                        </p>
+                        <p class="text-gray-400">
+                            I can code for 30 hours a day! xD
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-8">
+                <h2 class="text-yellow-500 text-2xl font-bold mb-4">EDUCATION</h2>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <div class="flex items-start">
+                        <div class="w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center mr-2 mt-1">
+                            <span class="text-yellow-500"> </span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-bold">Bachelor in Information Technology</h3>
+                            <p class="text-gray-400"><i class="fas fa-university"></i> University of Science</p>
+                            <p class="text-gray-400">Major in Software Engineering</p>
+                            <p class="text-gray-400">GPA: 9.19/10</p>
+                        </div>
+                        <div class="ml-auto text-gray-400">2022 - 2026</div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 class="text-yellow-500 text-2xl font-bold mb-4">WORKING EXPERIENCE</h2>
+                <div class="bg-gray-800 p-4 rounded-lg mb-4">
+                    <!-- <div class="flex items-start">
+                        <div class="text-yellow-500 text-2xl mr-4">•</div>
+                        <div>
+                            <h3 class="text-white font-bold">Software Engineer</h3>
+                            <p class="text-gray-400"><i class="fab fa-n"></i> Naver | Korea market</p>
+                            <p class="text-gray-400">Design and develop large-scale zero-downtime systems with millions of users. Using Java Spring & distributed systems on Naver cloud to implement social media platforms (Naver BBoom and Naver Blog). Responsible for DevOps tasks (e.g. build CI/CD pipeline). Building Slack chatbot with Slack Bolt to monitor the service when deploying.</p>
+                        </div>
+                        <div class="ml-auto text-gray-400">April 2023 - Now</div>
+                    </div> -->
+                </div>
+            </section>
+            <section>
+                <h2 class="text-yellow-500 text-2xl font-bold mb-4">SKILL</h2>
+                <div class="bg-gray-800 p-4 rounded-lg mb-4">
+                    <div class="grid grid-cols-5 gap-4 p-4 bg-gray-300 rounded-lg">
+                        <img alt="TailwindCSS logo" src="./images/tailwind.png" class="w-16 h-16 mx-auto"/>
+                        <img alt="React logo" src="./images/react.png" class="w-16 h-16 mx-auto"/>
+                        <img alt="MySQL logo" src="./images/mysql.png" class="w-16 h-16 mx-auto"/>
+                        <img alt="mongoDB logo" src="./images/mongodb.png" class="w-16 h-16 mx-auto"/>
+                        <img alt="GitHub logo" src="./images/github.png" class="w-16 h-16 mx-auto"/>
+                        <img alt="JIRA logo" src="./images/jira.png" class="w-16 h-16 mx-auto"/>
+                    </div> 
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
